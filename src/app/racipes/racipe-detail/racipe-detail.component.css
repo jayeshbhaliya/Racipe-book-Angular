@@ -1,0 +1,66 @@
+.row{
+  margin: 0 0 10px 30px;
+}
+.img-responsive{
+  max-height: 100px;
+  margin: 90px 10px 10px 10px ;
+  border-radius: 10px;
+}
+
+/* dropdown */
+
+.dropbtn {
+  background-color: #376FFD;
+  color: white;
+  padding: 10px 16px ;
+  font-size: 16px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid black; */
+  /* border-radius: 15px; */
+  width: 154px;
+  padding: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #5182ff;
+}
+
+img.img-fluid.img-thumbnail.rounded.w-100.h-40 {
+  height: 350px;
+}
+.racipe-img{
+  height: 350px;
+  margin-top: 88px;
+}

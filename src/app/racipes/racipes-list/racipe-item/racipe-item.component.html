@@ -1,0 +1,13 @@
+<a style="cursor: pointer ;" [routerLink]="[index]" routerLinkActive="bg-primary text-white" class=" list-group-item clearfix row p-3 border m-3 rounded" >
+  <div class="row">
+    <div class="float-right col-6">
+      <h1 class="list-group-item">{{racipes.name}}</h1>
+      <p>{{racipes.description}}</p>
+    </div>
+
+    <div class="float-left col-6">
+      <!-- {{racipes|json}} -->
+      <img [src]="racipes.imagePath" alt="" class="img-fluids" >
+    </div>
+  </div>
+</a>

@@ -1,0 +1,12 @@
+<p>racipe list</p>
+<div class="row">
+  <div class="col-md-12">
+    <a routerLink="new" class="btn btn-success">New Racipe</a>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-md-12">
+    <app-racipe-item *ngFor="let rcp of racipe , let i = index" [racipes]="rcp" [index]="i" ></app-racipe-item>
+  </div>
+</div>
